@@ -1,0 +1,4 @@
+C:\Users\DOMINIC\Desktop\UPC V\Aplicaciones web\SolucionS01\OperadoresAritmeticos\bin\Debug\OperadoresAritmeticos.dll
+C:\Users\DOMINIC\Desktop\UPC V\Aplicaciones web\SolucionS01\OperadoresAritmeticos\bin\Debug\OperadoresAritmeticos.pdb
+C:\Users\DOMINIC\Desktop\UPC V\Aplicaciones web\SolucionS01\OperadoresAritmeticos\obj\Debug\OperadoresAritmeticos.dll
+C:\Users\DOMINIC\Desktop\UPC V\Aplicaciones web\SolucionS01\OperadoresAritmeticos\obj\Debug\OperadoresAritmeticos.pdb
