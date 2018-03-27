@@ -1,0 +1,6 @@
+ado.net nos permite conectar nuestro proyectos con una base de datos. Revistar ado.net arquitecture.
+
+ruta: C:\Program Files\Microsoft SQL Server\MSSQL12.MSSQLSERVER\MSSQL\DATA\
+C:\Program Files\Microsoft SQL Server\MSSQL12.MSSQLSERVER\MSSQL\DATA\
+
+patrones DAO
