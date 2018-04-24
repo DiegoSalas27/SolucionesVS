@@ -1,0 +1,80 @@
+function esPar(n) { 
+    return (n % 2 === 0);
+}
+
+function calcularNumeros(numeros) { 
+    var respuesta = [];
+    numeros.forEach(function (x) {
+
+        if (esPar(x)) {
+            respuesta.push(x + ' es par');
+        } else {
+            respuesta.push(x + ' es impar');
+        }
+    });
+    return respuesta;
+}
+
+var Calculos = {
+
+    igv:0.18,
+    calcularIGV: function(monto) { 
+        return monto * Calculos.igv;
+    },
+    calcularSinIGV: function (monto) { 
+        return monto * (1 - Calculos.igv);
+    }
+}
+
+//variables LET: su ámbito es local, no global como var
+// let no te permite cambiar el tipo de dato, pero si el valor que almacena
+
+if (true) { 
+    let a = 1;
+}
+
+console.log(a);
+
+//Operador Arrow
+//ES5
+[1, 2, 3].forEach(function (x) {
+    console.log(x);
+});
+
+//ES6--->
+[1, 2, 3].forEach(x => console.log(x));
+
+//Parametros por defecto
+function diAlgo(x = 'patricia') { 
+    //x = x || 'patricia';
+    return ' algo: ' + x;
+}
+
+class Person {
+    constructor(name, age) {
+        this.name = name;
+        this.age = age;
+    }
+
+    about() {
+        console.log(`Mi nombre:
+
+        ${this.name}mi edad: ${this.age}`)
+    }
+}
+
+class Worker extends Person { 
+
+    constructor(name, age, job) { 
+        super(name, age);
+        this.job = job;
+    }
+
+    about() {
+            console.log(`Mi nombre:
+
+            ${this.name}mi edad: ${this.age}, 
+
+            mi trabajo es ${this.job}`)
+        }
+}
